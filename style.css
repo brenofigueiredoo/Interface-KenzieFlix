@@ -1,0 +1,85 @@
+body, section, article, main, aside, footer, img, nav, ul, li, a, h1, h2, h3, div, p, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+ul, ol {
+    list-style: none;
+}
+body {
+    background: #000000;
+}
+h1 {
+    display: flex;
+    color: white;
+    font-size: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    justify-content: center;
+    margin-top: 120px;
+}
+.kenzieflix {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    gap: 22px;
+}
+figure {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btnflix {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    height: 60px;
+}
+.btnflixtext {
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+    background-color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: none;
+    border: white solid 1px;
+    padding: 0px 25px;
+}
+.btnflixtext:hover {
+    background-color: white;
+    color: #000000;
+}
+#imgrejane:hover ,
+#imgrejane:focus ,
+#imgkaren:hover ,
+#imgkaren:focus ,
+#imgbreno:hover ,
+#imgbreno:focus ,
+#imgperfil:hover ,
+#imgperfil:focus {
+  transform: scale(1.2);
+  transition: all .8s;
+  display: block;
+}
+.imagemflix {
+    max-width: 160px;
+    max-height: 160px;
+    overflow: hidden;
+    border-radius: 11px;
+}
+li {
+    color: #9C9C9C;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+}
+li:hover {
+    color: white;
+}
+.divtext {
+    margin-top: 10px;
+}
